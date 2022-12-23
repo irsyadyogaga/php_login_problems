@@ -17,7 +17,7 @@ Bergabunglah dengan kelompok anda kemudian lakukan analisa potongan sistem berik
 cd C:/XAMPP/htdocs
 git clone https://github.com/ekoverianto/php_login_problems.git
 import database to your local DBMS
-run in clinet: http://127.0.0.1/php_login_problems
+run in client: http://127.0.0.1/php_login_problems
 ```
 
 ## Developed by Eko Verianto
