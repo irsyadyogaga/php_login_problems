@@ -3,8 +3,11 @@ include "koneksi.php";
 
 session_start();
 
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = mysqli_real_escape_string($koneksi, $_POST['username']);
+$password = mysqli_real_escape_string($koneksi, $_POST['password']);
+
+// $username = $_POST['username'];
+// $password = $_POST['password'];
 
 $query = mysqli_query($koneksi, "SELECT * FROM tbl_admin WHERE username='$username' AND password='$password'");
 

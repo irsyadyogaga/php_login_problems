@@ -40,7 +40,7 @@ if(empty($_SESSION['username']) and empty($_SESSION['password'])) {
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
                     <a class="dropdown-item" href="#">
                         <div class="media">
-                            <img class="align-self-center mr-3" src="img/logo.png" height="50" width="50" alt="Generic placeholder image">
+                            <img class="align-self-center mr-3" src="img/key-login.png" height="50" width="50" alt="Generic placeholder image">
                             <div class="media-body">
                                 <h5 class="mt-0"><?php echo $_SESSION['namaadmin'] ?></h5>
                                 <small><p class="mb-0"><i class="bi bi-clock"></i> Pkl <?php echo date('H:i:s') ?> WIB</p></small>
